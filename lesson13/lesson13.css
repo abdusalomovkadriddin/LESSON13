@@ -1,0 +1,610 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: hsl(217, 15%, 17%);
+    background: hsl(0, 0%, 100%);
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.qadriddin1 {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qadriddin2 {
+    font-size: 23px;
+    font-weight: bold;
+    color: hsl(211, 37%, 24%);
+}
+
+.qadriddin2 span {
+    color: hsl(160, 68%, 43%);
+}
+
+.qadriddin3 {
+    display: flex;
+    gap: 24px;
+    font-size: 12px;
+}
+
+.qadriddin3 a:hover {
+    color: hsl(160, 68%, 43%);
+}
+
+.qadriddin4,
+.qadriddin7,
+.qadriddin10,
+.qadriddin19,
+.qadriddin23,
+.qadriddin31 button {
+    background: hsl(160, 69%, 43%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 9px 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.qadriddin5 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 15px auto 55px;
+    background: hsl(162, 50%, 96%);
+    min-height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    border-radius: 5px;
+}
+
+.qadriddin6 {
+    width: 43%;
+    position: relative;
+    z-index: 2;
+}
+
+.qadriddin6 h1 {
+    font-size: clamp(28px, 3vw, 42px);
+    line-height: 1.15;
+    margin-bottom: 17px;
+}
+
+.qadriddin6 p {
+    color: hsl(200, 6%, 48%);
+    font-size: 13px;
+    max-width: 340px;
+    margin-bottom: 24px;
+}
+
+.qadriddin8 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 59%;
+    height: 100%;
+}
+
+.qadriddin8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 5px 5px 0;
+}
+
+.qadriddin9 {
+    position: absolute;
+    bottom: -25px;
+    left: 5%;
+    width: 90%;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 5px 25px hsla(0, 0%, 0%, 0.047);
+    z-index: 3;
+}
+
+.qadriddin9 > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+    color: hsl(205, 5%, 57%);
+}
+
+.qadriddin9 > div > span {
+    color: hsl(160, 69%, 43%);
+    font-size: 20px;
+}
+
+.qadriddin9 b {
+    color: hsl(210, 20%, 19%);
+    font-size: 11px;
+}
+
+.qadriddin10 {
+    white-space: nowrap;
+}
+
+.qadriddin11 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 80px auto 50px;
+}
+
+.qadriddin12 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.qadriddin12 h2,
+.qadriddin14 h2 {
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.qadriddin12 p {
+    font-size: 12px;
+    color: hsl(207, 5%, 59%);
+    margin-top: 5px;
+}
+
+.qadriddin13 {
+    color: hsl(160, 69%, 43%);
+    background: hsl(157, 57%, 95%);
+    border-radius: 20px;
+    padding: 7px 16px;
+    font-size: 11px;
+}
+
+.qadriddin14 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.qadriddin15 {
+    border: 1px solid hsl(0, 0%, 94%);
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+}
+
+.qadriddin15 img {
+    display: block;
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.qadriddin16 {
+    padding: 13px;
+}
+
+.qadriddin16 h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.qadriddin16 p {
+    font-size: 11px;
+    color: hsl(205, 5%, 55%);
+    margin-bottom: 12px;
+}
+
+.qadriddin16 > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qadriddin16 b {
+    color: hsl(208, 37%, 24%);
+    font-size: 14px;
+}
+.qadriddin21 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    align-items: center;
+    background: hsl(162, 50%, 96%);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.qadriddin21  img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.qadriddin22 h2 {
+    font-size: 27px;
+    margin-bottom: 17px;
+}
+
+.qadriddin22 p {
+    font-size: 12px;
+    color: hsl(197, 6%, 51%);
+    margin-bottom: 15px;
+    max-width: 440px;
+}
+
+.qadriddin23 {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.qadriddin24 {
+    width: 90%;
+    max-width: 1200px;
+    min-height: 220px;
+    margin: 50px auto;
+    background: hsl(204, 33%, 97%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.qadriddin25 {
+    padding: 30px 7%;
+    max-width: 650px;
+}
+
+.qadriddin26 {
+    color: hsl(160, 69%, 43%);
+    font-size: 45px;
+    line-height: 1;
+}
+
+.qadriddin25 p {
+    font-size: 14px;
+    color: hsl(205, 8%, 45%);
+    margin-bottom: 20px;
+}
+
+.qadriddin25 h3 {
+    font-size: 14px;
+}
+
+.qadriddin25 small {
+    color: hsl(201, 7%, 58%);
+    font-size: 11px;
+}
+
+.qadriddin24 > img {
+    width: 30%;
+    height: 220px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.qadriddin27 {
+    width: 90%;
+    max-width: 1200px;
+    height: 350px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    background: hsl(180, 9%, 96%);
+    border: 4px solid hsl(314, 81%, 60%);
+}
+
+.qadriddin28 {
+    position: absolute;
+    inset: 0;
+    background-color: hsl(150, 7%, 95%);
+    background-image:
+        linear-gradient(25deg, transparent 47%, #dce2df 48%, #dce2df 49%, transparent 50%),
+        linear-gradient(155deg, transparent 45%, #dce2df 46%, #dce2df 47%, transparent 48%),
+        linear-gradient(90deg, transparent 49%, #e0e5e2 50%, transparent 51%);
+    background-size: 170px 110px, 200px 130px, 120px 100px;
+}
+
+.qadriddin28 > span {
+    position: relative;
+    display: inline-block;
+    margin: 30px 5%;
+    color: hsl(165, 3%, 54%);
+    font-size: 11px;
+}
+
+.qadriddin29 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: hsla(160, 68%, 43%, 0.149);
+    top: 30%;
+    left: 65%;
+}
+
+.qadriddin29::after {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 26px;
+    left: 26px;
+    border-radius: 50%;
+    background: hsl(160, 69%, 43%);
+    border: 4px solid white;
+}
+
+.qadriddin30 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px;
+    background: hsla(0, 0%, 100%, 0.929);
+}
+
+.qadriddin30 h2 {
+    font-size: 22px;
+}
+
+.qadriddin30 p {
+    color: hsl(200, 5%, 55%);
+    font-size: 12px;
+    margin: 5px 0 12px;
+}
+
+.qadriddin31 {
+    display: flex;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.qadriddin31 input {
+    flex: 1;
+    min-width: 0;
+    padding: 11px;
+    border: 1px solid hsl(195, 8%, 90%);
+    border-radius: 5px;
+}
+
+.qadriddin32 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto 0;
+    padding: 35px 0;
+    border-top: 1px solid hsl(0, 0%, 94%);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.qadriddin33 p {
+    color: hsl(200, 5%, 55%);
+    font-size: 12px;
+    max-width: 230px;
+    margin: 12px 0;
+}
+
+.qadriddin34 {
+    color: hsl(160, 69%, 43%);
+    margin-top: 18px;
+}
+
+.qadriddin35 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.qadriddin35 h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.qadriddin35 a {
+    color: hsl(203, 5%, 53%);
+}
+.qadriddin24 {
+    width: 90%;
+    max-width: 1100px;
+    margin: 45px auto 50px;
+    display: flex;
+    min-height: 220px;
+    background: hsl(180, 7%, 97%);
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: stretch;
+}
+
+.qadriddin25 {
+    flex: 1;
+    padding: 30px 40px;
+    align-self: center;
+}
+
+.qadriddin26 {
+    color: hsl(160, 69%, 43%);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.qadriddin25 p {
+    color: hsl(200, 5%, 49%);
+    font-size: 12px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+.qadriddin25 h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.qadriddin25 small {
+    color: hsl(198, 5%, 57%);
+    font-size: 10px;
+}
+
+.qadriddin27 {
+    width: 32%;
+    min-height: 220px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.qadriddin28 {
+    width: 90%;
+    max-width: 1100px;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 55px;
+    border-radius: 8px;
+    background: hsl(144, 13%, 92%);
+}
+
+.qadriddin29 {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.qadriddin30 {
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    bottom: 12px;
+    padding: 18px 25px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 18px #00000010;
+}
+
+.qadriddin30 h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.qadriddin30 p {
+    font-size: 10px;
+    line-height: 1.6;
+    color: hsl(198, 4%, 53%);
+}
+
+.qadriddin31 {
+    display: flex;
+    gap: 8px;
+}
+
+.qadriddin31 input {
+    flex: 1;
+    min-width: 0;
+    padding: 11px;
+    border: 1px solid hsl(150, 4%, 91%);
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.qadriddin31 button {
+    background: hsl(160, 69%, 43%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 18px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.qadriddin32 {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 35px 25px 25px;
+    border-top: 1px solid hsl(0, 0%, 94%);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.qadriddin33 h2 {
+    font-size: 23px;
+    color: hsl(211, 37%, 24%);
+    margin-bottom: 12px;
+}
+
+.qadriddin33 h2 span {
+    color: hsl(160, 69%, 43%);
+}
+
+.qadriddin33 p {
+    max-width: 220px;
+    color: hsl(200, 5%, 55%);
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+.qadriddin34 {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.qadriddin34 a {
+    color: hsl(160, 69%, 43%);
+    font-size: 13px;
+}
+
+.qadriddin35,
+.qadriddin36,
+.qadriddin37 {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.qadriddin35 h3,
+.qadriddin36 h3,
+.qadriddin37 h3 {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.qadriddin35 a,
+.qadriddin36 a,
+.qadriddin37 a {
+    font-size: 11px;
+    color: hsl(202, 5%, 53%);
+}
